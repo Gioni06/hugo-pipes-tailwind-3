@@ -1,0 +1,15 @@
+<html lang="en">
+<head>
+    {{- partial "head.html" . -}}
+</head>
+<body>
+    <main class="flex flex-col items-center w-1/2 my-2 mx-auto">
+        <header class="w-full">
+            <h1 class="w-full font-sans text-sky-500 font-bold">{{.Page.Title}}</h1>
+        </header>
+        <div class="w-full">
+            {{- block "main" . }}{{- end }}
+        </div>
+    </main>
+</body>
+</html>
