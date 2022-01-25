@@ -7,7 +7,7 @@
  * postcss-cli
  * autoprefixer
 
-2. Run `npm tailwindcss init -p` to create a TailwindCSS and a PostCSS config file.
+2. Run `npx tailwindcss init -p` to create a TailwindCSS and a PostCSS config file.
 3. Add this to your tailwind.config.js file:
 ```javascript
    {
